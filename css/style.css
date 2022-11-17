@@ -14,9 +14,13 @@ body {
     font-weight: 400;
     line-height: 24px;
     color: var(--main-color);
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
 }
 .container {
-    width: 1170px;
+    width: 1200px;
     text-align: center;
     margin: 0 auto;
 }
@@ -52,7 +56,7 @@ body {
     margin-right: 50px;
 }
 .header-nav-list-item:first-child {
-    margin-right: 93px;
+    margin-right: 92px;
 }
 .nav-link {
     text-decoration: none;
@@ -74,12 +78,12 @@ body {
 
 .slider {
     background-color: var(--main-bgc);
-    height: 600px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 200px 0;
 }
 .slider-text {
     font-weight: 900;
@@ -102,7 +106,7 @@ body {
     cursor: pointer;
 }
 .our-qualities {
-    margin-top: 94px;
+    padding: 94px 0;
 }
 .our-qualities-list {
     display: flex;
@@ -116,13 +120,14 @@ body {
 .our-qualities-text {
     color: var(--second-color);
 }
-.our-affairs {
-    margin-top: 94px;
-}
+
 .section-header {
     font-weight: 700;
     font-size: 36px;
     line-height: 42.19px;
+}
+.our-affairs {
+    padding: 0 0 94px 0;
 }
 .our-affairs-list {
     margin-top: 50px;
@@ -130,9 +135,8 @@ body {
     justify-content: space-between;
 }
 .our-team {
-    margin-top: 94px;
+    padding: 94px 0;
     background-color: var(--second-bgc);
-    height: 648px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -162,7 +166,7 @@ body {
     color: var(--second-color);
 }
 .footer {
-    height: 252px;
+    padding: 94px 0;
     background-color: var(--main-bgc);
     color: var(--text-color);
     display: flex;
